@@ -12,7 +12,7 @@ Run fourierTransform.py
 ## How does it work?
 I have used descrete fourier transform to compute the initial angles and the length of the vectors. 
 ```
-hi
+{\displaystyle x_{n}={\frac {1}{N))\sum _{k=0}^{N-1}X_{k}\cdot e^{i2\pi kn/N},\quad n\in \mathbb {Z} ,\,}	
 
 ```
 
