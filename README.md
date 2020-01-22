@@ -14,4 +14,6 @@ I have used descrete fourier transform to compute the initial angles and the len
 ```
 X(n) = \sum_{k=0}^{N-1}f(k)*[cos(2*pi*n*k)/N)-i*sin(2*pi*n*k)/N)]
 ```
+length of the nth vector = sqrt(real^2+imaginary^2)
 
+initial angle of the nth vector = arctan(imag/real)
