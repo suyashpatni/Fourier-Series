@@ -26,18 +26,18 @@ BLACK = pygame.Color('black')
 GREY = pygame.Color(30,30,30)
 font = pygame.font.Font('freesansbold.ttf', 50) 
 
-a = 1                                                                                 
+speed = 1                                                                                 
 for i in range(itera):   
     ang = 180*fourierCalc.fourier(drawing, i)[1]/math.pi
-    vector = vectors.vectors(a*i, ang)
+    vector = vectors.vectors(speed*i, ang)
     vectors_list.append(vector)
     if i != 0:
         ang = 180*fourierCalc.fourier(drawing, -1*i)[1]/math.pi
-        vector = vectors.vectors(-1*a*i, ang)
+        vector = vectors.vectors(-1*speed*i, ang)
         vectors_list.append(vector)
 list_len = []
 for i in range(itera*2-1):
-    n = vectors_list[i].speed/a
+    n = vectors_list[i].speed/speed
     try:
         length = fourierCalc.fourier(drawing, n)[0]
     except:
@@ -56,7 +56,7 @@ while not done:
         
     for i in range(itera*2-1):
         
-        n = vectors_list[i].speed/a
+        n = vectors_list[i].speed/speed
            
         try:
             num = list_len[i]   
@@ -82,7 +82,7 @@ while not done:
 
         except Exception as e:
             pass
-    if len(endpointsList) >= 360/a:
+    if len(endpointsList) >= 360/speed:
         endpointsList = []
 
     
