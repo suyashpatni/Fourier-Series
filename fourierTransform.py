@@ -9,7 +9,7 @@ import path
 
 pygame.init()
 
-drawing = path.drawing#draw.ll()
+drawing = path.drawing
 itera = len(drawing)//2
 height = 900
 width = 1500
