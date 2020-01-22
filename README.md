@@ -9,8 +9,4 @@ Indian map with 21 rotating Vectors:
 Indian map with 500 rotating Vectors
 ![image](https://user-images.githubusercontent.com/44916178/72863867-15edda00-3d0d-11ea-823c-69ecbdb82b60.png)
 
-# How does it work?
-This
-''' python
-print('hi')
-'''
+
