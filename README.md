@@ -1,2 +1,4 @@
 # Fourier-Series
-Drawing an arbitrary signal with the fourier series
+Creating the map of India using the fourier series.
+
+Run fourierTransform.py
