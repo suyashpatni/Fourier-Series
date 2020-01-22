@@ -10,7 +10,7 @@ import path
 pygame.init()
 
 drawing = path.drawing
-itera = 250#len(drawing)//2
+itera = len(drawing)//2
 height = 900
 width = 1500
 screen = pygame.display.set_mode((width, height))
