@@ -12,7 +12,7 @@ Run fourierTransform.py
 ## How does it work?
 I have used descrete fourier transform to compute the initial angles and the length of the vectors. 
 ```
-X(n) = \sum_{k=0}^{N-1}f(k)*[cos(2*pi*n*k)/N)-i*sin(2*pi*n*k)/N)]
+X(n) = 1/N*\sum_{k=0}^{N-1}f(k)*[cos(2*pi*n*k)/N)-i*sin(2*pi*n*k)/N)]
 ```
 length of the nth vector = sqrt(real^2+imaginary^2)
 
