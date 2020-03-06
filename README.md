@@ -14,10 +14,6 @@ I have used descrete fourier transform to compute the initial angles and the len
 ```
 X(n) = 1/N*\sum_{k=0}^{N-1}f(k)*[cos(2*pi*n*k)/N)-i*sin(2*pi*n*k)/N)]
 ```
-
-```latex
-$ x $
-```
 length of the nth vector = sqrt(real^2+imaginary^2)
 ``` python
 length = math.sqrt(fun.imag**(2)+fun.real**(2))
