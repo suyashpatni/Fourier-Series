@@ -16,7 +16,7 @@ X(n) = 1/N*\sum_{k=0}^{N-1}f(k)*[cos(2*pi*n*k)/N)-i*sin(2*pi*n*k)/N)]
 ```
 ![sigma](http://latex.codecogs.com/svg.latex?%5Csum_%7Bi%3D1%7D%5E%7B100%7Di)
 
-<!-- \sum_{i=1}^{100}i -->
+X(n) = 1/N*<!-- \sum_{k=0}^{N-1}f(k)*[cos(2*pi*n*k)/N - i*sin(2*pi*n*k)/N] -->
 
 length of the nth vector = sqrt(real^2+imaginary^2)
 ``` python
