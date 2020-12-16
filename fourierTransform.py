@@ -54,7 +54,7 @@ while not done:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             done = True
-    text_fps = font_fps.render('fps: {}'.format(str(round(clock.get_fps(), 3))), True, WHITE, BLACK)  
+    text_fps = font_fps.render('fps- {}'.format(str(round(clock.get_fps(), 3))), True, WHITE, BLACK)  
     textRect_fps = text_fps.get_rect()  
     textRect_fps.center = (width/8, 50)   
     screen.blit(text_fps, textRect_fps)
